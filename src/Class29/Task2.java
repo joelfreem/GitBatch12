@@ -1,0 +1,24 @@
+package Class29;
+
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
+import java.util.List;
+
+public class Task2 {
+
+    //how to remove duplicates
+
+    public static void main(String[] args) {
+        List<String> aList= new LinkedList<>();
+        aList.add("John");
+        aList.add("Jane");
+        aList.add("James");
+        aList.add("Jasmine");
+        aList.add("Jane");
+        aList.add("James");
+    LinkedHashSet linkedHashSet=new LinkedHashSet(aList);
+    aList.clear();
+    aList.addAll(linkedHashSet);
+        System.out.println(aList);
+    }
+}
