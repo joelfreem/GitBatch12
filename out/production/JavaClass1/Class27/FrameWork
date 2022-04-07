@@ -1,0 +1,24 @@
+Collections Framework in Java:
+collection of classes that help us manage and manipulate data in a better way
+1)ArrayList
+    1)This class has many built-in methods like add() remove() clear() etc.
+    2) Dynamic and can adjust their size at run time
+
+ArrayList<> arrayList=new ArrayList<>();
+ArrayList=> name of the class
+<> =>diamond operator we specify the data type
+Wrapper classes
+byte=>Byte
+short=Short
+int=Integer
+double=Double
+char=character
+
+why wrapper classes
+1) we get built-in methods
+2) a lot of frameworks do not support primitives
+when to use primitive:
+ 1)When we care about the memory because primitives occupy 4 times less memory as compared to wrapper
+ 2) performance
+ When to use Wrapper
+ When we care about our ease
