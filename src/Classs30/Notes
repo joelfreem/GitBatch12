@@ -12,7 +12,7 @@ LikedHAshMap
     1)insertion order is maintained (upside)
     2) insertion sped is same as Hashmap but retrieval speed is slowest in all the maps
 TreeMap:
-    1) Data is sorted in natural oder by default.
+    1) Data is sorted in natural order by default.
     2) insertion speed is slowest but retrieval speed is better than linkedHashMap but slower
     than HashMap
 Rules:
