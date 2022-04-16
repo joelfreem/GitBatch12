@@ -1,9 +1,6 @@
-package CLass28;
+package Class28;
 
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Locale;
 
 public class Task2 {
     public static void main(String[] args) {

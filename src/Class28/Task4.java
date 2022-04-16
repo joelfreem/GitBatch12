@@ -1,7 +1,6 @@
-package CLass28;
+package Class28;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class Task4 {
     public static void main(String[] args) {

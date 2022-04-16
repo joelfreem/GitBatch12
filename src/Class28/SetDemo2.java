@@ -1,11 +1,11 @@
-package CLass28;
+package Class28;
 
-import java.util.HashSet;
+import java.util.TreeSet;
 
-public class SetDemo1 {
+public class SetDemo2 {
     public static void main(String[] args) {
-        //no duplicate no insertion order
-        HashSet<String> fruit=new HashSet<>();
+
+        TreeSet<String> fruit=new TreeSet<>();
         fruit.add("Apple");
         fruit.add("Mango");
         fruit.add("Kiwi");
